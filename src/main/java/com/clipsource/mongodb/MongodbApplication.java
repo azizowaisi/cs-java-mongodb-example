@@ -17,7 +17,7 @@ public class MongodbApplication {
 
 	public static void main(String[] args) {
 
-		ConnectionString connectionString = new ConnectionString("mongodb+srv://amc-dev-delivery-order:477AtrqpLcLsMNzv@cluster0.wk1nse8.mongodb.net/?retryWrites=true&w=majority");
+		ConnectionString connectionString = new ConnectionString("x");
 		MongoClientSettings settings = MongoClientSettings.builder()
 				.applyConnectionString(connectionString)
 				.serverApi(ServerApi.builder()
